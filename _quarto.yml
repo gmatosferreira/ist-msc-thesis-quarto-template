@@ -1,0 +1,102 @@
+project:
+  type: book
+
+book:
+  title: ""
+  author: ""
+  date: ""
+  chapters:
+    - index.qmd
+    - acknowledgements.qmd
+    - abstract.qmd
+    - intro.qmd
+    - literature_review.qmd
+    - methodology.qmd
+    - results.qmd
+    - discussion.qmd
+    - conclusion.qmd
+    - references.qmd
+  appendices:
+    - appendix_a.qmd
+
+bibliography: references.bib
+csl: apa.csl
+link-citations: true
+citeproc: true
+number-depth: 3
+
+format:
+  html:
+    theme: cosmo
+    css: ./styles.css
+  pdf: # https://pandoc.org/MANUAL.html#variables-for-latex
+    css: ./styles.css
+    documentclass: scrbook
+    linkcolor: black
+    citecolor: black
+    urlcolor: blue
+    classoption:
+      - twoside
+      - openright
+    geometry:
+      - a4paper
+      - top=2.5cm
+      - bottom=2.5cm
+      - left=2.5cm
+      - right=2.5cm
+      - heightrounded
+    toc: false
+    mainmatter: false
+    keep-tex: true
+    mainfont: "Liberation Sans"                # Arial (or similar) per spec
+    papersize: a4
+    fontsize: 10pt
+    linestretch: 1.5
+    include-in-header:
+      text: |
+        % Prevent Quarto from automatically resetting page numbering and style
+        \let\SavedMainMatter\mainmatter
+        \renewcommand{\mainmatter}{}
+
+        % Setup support for generating an index
+        \usepackage{makeidx}
+        \makeindex
+
+        % Adjust chapter heading spacing (KOMA-Script)
+        \makeatletter
+        \renewcommand*\chapterheadstartvskip{\vspace*{0pt}}
+        \RedeclareSectionCommand[beforeskip=0pt,afterskip=1em]{chapter}
+
+        % Redefine minipage to force top alignment by default
+        \usepackage{xparse} % needed for \RenewDocumentEnvironment
+        \makeatletter
+        \let\oldminipage\minipage
+        \let\endoldminipage\endminipage
+        \RenewDocumentEnvironment{minipage}{O{}m}
+          {\oldminipage[t]{#2}}
+          {\endoldminipage}
+        \makeatother
+
+        % General document styling and depth
+        \usepackage{xcolor}
+        \setcounter{secnumdepth}{2}
+
+        % Configure code blocks to wrap long lines
+        \usepackage{fvextra}
+        \DefineVerbatimEnvironment{Highlighting}{Verbatim}{
+          breaklines=true,
+          breakanywhere=true,
+          breaksymbol={},
+          commandchars=\\\{\},
+          breakindent=0pt
+        }
+
+        % Set page style to plain (page number at bottom)
+        \pagestyle{plain}
+    include-before-body: cover.tex
+    include-after-body:
+      text: |
+        \printindex
+
+
+

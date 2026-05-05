@@ -1,0 +1,48 @@
+# Lorem Ipsum Appendix {#sec-appendix-a}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+## Section One {#sec-appendix-section-1}
+
+### Subsection One
+
+\footnotesize
+
+```{r}
+#| eval: false
+#| echo: true
+# Load necessary library
+library(ggplot2)
+
+# Create a simple data frame
+data <- data.frame(
+    category = c("A", "B", "C", "D"),
+    value = c(10, 20, 15, 25)
+)
+
+# Plot the data
+ggplot(data, aes(x = category, y = value, fill = category)) +
+    geom_col() +
+    theme_minimal() +
+    labs(title = "Simple Bar Chart", x = "Category", y = "Value")
+```
+
+\normalsize
+
+### Subsection Two
+
+\footnotesize
+
+```{r}
+#| eval: false
+#| echo: true
+# A simple summary of a built-in dataset
+summary(cars)
+
+# A simple linear model and plot
+model <- lm(dist ~ speed, data = cars)
+plot(cars$speed, cars$dist, main = "Speed vs Distance")
+abline(model, col = "red")
+```
+
+\normalsize

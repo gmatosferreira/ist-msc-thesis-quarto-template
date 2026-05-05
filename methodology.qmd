@@ -1,0 +1,106 @@
+# Methodology 
+
+## Introduction
+
+This section documents different examples of Quarto elements that can be used to structure your thesis, namely:
+
+- Figures, see @sec-met-figures
+- Tables, see @sec-lr-2 and @sec-met-tables
+- Formulas, see @sec-met-formulas
+- Code snippets, see @sec-met-code-snippets
+
+## Figures {#sec-met-figures}
+
+Refer to [Quarto documentation](https://quarto.org/docs/authoring/figures.html) for more details.
+
+### Single Figure
+
+![This a single image, with 75% width](figures/placeholder_16x9.png){fig-align="center" width="75%" #fig-single_image}
+
+### Multiple Figures
+
+::: {#fig-transit_networks layout="[[54,-1,45]]" fig-pos='H'}
+
+![This image is assigned 54% of the layout](figures/placeholder_3x4.png)
+
+![This image is asigned 45% of the layout](figures/placeholder_3x4.png)
+
+Multiple figure layout, with different width assigned to each and a spacing of 1% between figures
+:::
+
+## Tables {#sec-met-tables}
+
+Refer to [Quarto documentation](https://quarto.org/docs/authoring/tables.html) for more details.
+
+### Horizontal layout
+
+\fontsize{9}{10}\selectfont
+
+| Region\\Mode (%)       | Walk | Bike | Bus  | Boat | Train | Metro | Car  | Other |
+| ---------- | ---- | ---- | ---- | ---- | ----- | ----- | ---- | ----- |
+| Lisbon city     | 21   | 1    | 15   | 0    | 2     | 10    | 48   | 3     |
+| Metropolitan area | 16   | 1    | 12   | 1    | 7     | 4     | 56   | 3     |
+
+: Example of table with an horizontal layout {#tbl-horizontal-layout}
+
+\normalsize
+
+### Vertical layout
+
+
+\fontsize{9}{10}\selectfont
+
++:----------------------------------------------------+:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Opening questions                                   | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae imperdiet felis, at eleifend quam. Praesent et odio vitae lorem venenatis pulvinar.
++-----------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Exploratory questions                               | 1.  Morbi non quam aliquet, egestas libero quis, sagittis lorem?
+|                                                     |     1.  Curabitur velit lacus, tempor ut ex nec, congue pulvinar ex?
+|                                                     |     2.  Sed in mi vitae erat dignissim ultrices eget ac libero?
+|                                                     | 2.  Quisque a luctus magna, sit amet vulputate dui?
+|                                                     | 3.  Donec sit amet quam ex?
+|                                                     |     1.  Maecenas at mi mollis, scelerisque felis vel, accumsan elit?
+|                                                     |     2.  Ut vel dolor ut ex tincidunt accumsan?
++-----------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Closing questions                                   | Ut in erat at quam placerat convallis. Aliquam a lectus turpis. Proin vel orci ut leo eleifend iaculis. Donec vitae ex sit amet sapien rhoncus ullamcorper. Sed at sem velit?
++-----------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+: Example of table with a vertical layout {#tbl-vertical-layout}
+
+\normalsize
+
+## Formulas {#sec-met-formulas}
+
+Refer to [Quarto documentation](https://quarto.org/docs/authoring/markdown-basics.html#equations) for more details.
+
+## In text
+
+This is an inline formula: $E = mc^{2}$
+
+
+### Section
+
+$$
+RBI(\%) = \frac{\text{95th percentile travel time} - \text{average travel time}}{\text{average travel time}}
+$$ {#eq-rbi-main}
+
+## Code snippets {#sec-met-code-snippets}
+
+Refer to [Quarto documentation](https://quarto.org/docs/authoring/markdown-basics.html#source-code) for more details.
+
+::: {#fig-json_message}
+
+\fontsize{9}{10}\selectfont
+
+```{.json}
+{
+    "name": "John", 
+    "age": 30, 
+    "car": null
+}
+```
+
+\normalsize
+
+Example of a JSON message
+
+:::

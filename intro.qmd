@@ -1,0 +1,25 @@
+\pagenumbering{arabic}
+
+# Introduction
+
+## Motivation
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum, ante vel tincidunt aliquam, orci odio congue mauris, ac sodales nunc odio quis arcu. Donec auctor diam sit amet neque bibendum pulvinar. Donec maximus ex leo, eget aliquam lorem vehicula sit amet. Aliquam molestie libero enim, vel sagittis odio elementum eget. Nunc porttitor turpis tellus, vitae commodo arcu congue quis. Vestibulum efficitur vel est nec consectetur. Ut mattis augue nec turpis malesuada, faucibus iaculis justo pulvinar. Curabitur nec mauris varius, ultricies massa vitae, euismod est. Vestibulum nisl ligula, sagittis et feugiat a, scelerisque nec urna.
+
+Sed non dolor massa. Vestibulum vitae sapien ut elit pellentesque sollicitudin sit amet quis nisi. Morbi ut ligula tristique, consequat arcu a, feugiat elit. Nulla laoreet suscipit purus, eget faucibus felis auctor eget. Sed massa odio, fermentum eget ornare vitae, laoreet nec elit. Sed arcu lorem, finibus eu erat hendrerit, tempor sollicitudin justo. In commodo nunc justo, et ornare ligula lobortis ac. Nulla pharetra nibh elit, ac finibus augue eleifend ut. In eu rhoncus urna, vel sollicitudin odio. 
+
+## Objective
+
+Nunc sagittis sollicitudin tellus nec tincidunt. Phasellus id sodales leo, sit amet vehicula nulla. In tristique sagittis velit in dapibus. Morbi augue nisi, placerat tincidunt odio vel, facilisis auctor lectus. Duis fermentum blandit convallis. Aenean fermentum vulputate eros, a fringilla est placerat vehicula. Cras tristique ipsum orci, at ultrices lorem commodo sit amet. Maecenas suscipit facilisis lectus eget fringilla. 
+
+## Structure of the Work
+
+This work is structured in six chapters. After this introduction that explains the motivation, objectives and structure, the second chapter dives into the existing literature to set the theoretical framework..
+
+The third chapter describes the methodology applied in this research...
+
+Results are presented in chapter four...
+
+Chapter six combines these findings, relating them to the literature and interpreting their implications for network monitoring and planning. 
+
+Finally, the seventh chapter concludes this thesis, summarizing the main contributions, acknowledging its limitations, and suggesting directions for future research.

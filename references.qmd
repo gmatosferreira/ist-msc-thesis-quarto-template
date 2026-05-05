@@ -1,0 +1,10 @@
+# References {.unnumbered}
+
+\fontsize{9}{10}\selectfont
+
+::: {#refs}
+:::
+
+\normalsize
+
+\KOMAoptions{open=any}

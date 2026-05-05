@@ -1,0 +1,42 @@
+# Literature Review
+
+## Introduction
+
+Lorem ipsum dolor sit amet consectetur adipiscing elit. Sed interdum, ante vel tincidunt aliquam, orci odio congue mauris, ac sodales nunc odio quis arcu. Donec auctor diam sit amet neque bibendum pulvinar. Donec maximus ex leo, eget aliquam lorem vehicula sit amet. Aliquam molestie libero enim, vel sagittis odio elementum eget. Nunc porttitor turpis tellus, vitae commodo arcu congue quis. Vestibulum efficitur vel est nec consectetur. Ut mattis augue nec turpis malesuada, faucibus iaculis justo pulvinar. Curabitur nec mauris varius, ultricies massa vitae, euismod est. Vestibulum nisl ligula, sagittis et feugiat a, scelerisque nec urna. 
+
+## Subtopic 1 {#sec-lr-1}
+
+Curabitur blandit gravida velit at consequat. In sodales dui risus, non posuere lacus volutpat non. Maecenas at enim aliquam, pretium lectus ut, consectetur massa. Donec ligula mi, blandit quis faucibus sed, vestibulum vel odio. Sed aliquet nulla ac sapien bibendum, at luctus nunc feugiat. Nullam ante diam, fringilla sed est eu, lacinia blandit arcu. Pellentesque eros nisl, ultricies eu porttitor eget, gravida eu nisi. Cras efficitur tellus ac felis vehicula, eu imperdiet urna finibus. Nulla eleifend, tellus eget elementum fringilla, purus mauris tempor massa, nec varius odio est at enim. Integer a enim eu diam pulvinar mattis et et lectus. Nunc sagittis ante vitae diam hendrerit, eget faucibus ante pellentesque. Phasellus molestie lobortis diam tempor fringilla. Donec lobortis mauris et dictum commodo. 
+
+## Subtopic 2 {#sec-lr-2}
+
+Vestibulum odio nibh, molestie in ornare id, scelerisque sed augue. Quisque urna mauris, pellentesque ac massa nec, dapibus blandit libero. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam at ante quis elit suscipit egestas. Suspendisse luctus scelerisque tristique. Pellentesque quam elit, vehicula eget lectus ut, consectetur semper est. Aliquam erat volutpat. Donec ut lorem urna. Aliquam nulla elit, convallis eu magna non, commodo mollis ipsum. Donec eu eros posuere, pellentesque est nec, convallis justo. Praesent cursus diam sit amet arcu scelerisque hendrerit. 
+
+\fontsize{9}{10}\selectfont
+
+::: {.landscape}
+
+| Lorem | Ipsum | Dolor | Sit |
+|--|----|--------|------|
+| Amet | Consectetur | Lorem ipsum dolor sit amet, consectetur adipiscing elit. | @ist_guia_2026 |
+| Adipiscing | Elit | Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. | @ist_guia_2026 |
+| Sed | Do | Ut enim ad minim veniam, quis nostrud exercitation ullamco. | @ist_guia_2026 |
+| Eiusmod | Tempor | Laboris nisi ut aliquip ex ea commodo consequat. | @ist_guia_2026 |
+| Incididunt | Ut | Duis aute irure dolor in reprehenderit in voluptate velit esse. | @ist_guia_2026 |
+| Labore | Et | Cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat. | @ist_guia_2026 |
+| Dolore | Magna | Cupidatat non proident, sunt in culpa qui officia deserunt mollit. | @ist_guia_2026 |
+| Aliqua | Ut | Anim id est laborum. Sed ut perspiciatis unde omnis iste natus. | @ist_guia_2026 |
+| Enim | Ad | Error sit voluptatem accusantium doloremque laudantium, totam rem. | @ist_guia_2026 |
+| Minim | Veniam | Aperiam, eaque ipsa quae ab illo inventore veritatis et quasi. | @ist_guia_2026 |
+
+: Example of landscape table {#tbl-landscape-table}
+
+:::
+
+\normalsize
+
+
+## Summary and Research Gap
+
+Donec congue dignissim risus, sit amet pharetra velit ullamcorper at. Nullam non felis efficitur, laoreet orci eget, aliquam arcu. Sed et nulla consectetur, bibendum justo ut, maximus mauris. Curabitur commodo nisl eget tempor mattis. Sed suscipit eros eu turpis maximus, non ullamcorper ex tristique. Vestibulum in porttitor sapien, tincidunt volutpat augue. Integer fringilla libero id libero vestibulum maximus. Cras id massa arcu. Aliquam ac ligula tempus, maximus lorem sed, vulputate quam. Aliquam erat volutpat. Proin eleifend accumsan consequat. Morbi viverra mauris id tortor cursus molestie. Morbi eu hendrerit ex. Vivamus interdum auctor porta. Etiam diam leo, finibus id velit non, volutpat pellentesque dui. Phasellus in risus fermentum, luctus turpis vel, maximus arcu. 
+

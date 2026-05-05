@@ -1,0 +1,59 @@
+# Abstract {.unnumbered}
+
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam posuere, metus eget lacinia interdum, nisi diam interdum tellus, id iaculis orci ipsum non nisl. Donec nisl urna, varius nec metus sollicitudin, rutrum lacinia ipsum. Sed sagittis interdum condimentum. Mauris quis lectus molestie, feugiat erat ut, venenatis ipsum. Proin eget magna orci. Fusce et porta diam, quis pulvinar lectus. Sed nunc ante, ultrices eget nulla ut, mattis pellentesque odio. Cras mollis mi urna, id dictum justo imperdiet at. Integer fermentum accumsan velit nec lobortis. Etiam vel dui euismod, semper nibh in, laoreet nibh. Curabitur viverra, quam eget pharetra pretium, ex ante convallis nunc, sed tincidunt urna mi quis dui. Nunc et orci lectus. Aenean luctus nisl nec condimentum congue. Nam ex ipsum, lobortis vel justo in, sollicitudin suscipit dui. Praesent ac elit magna. Maecenas sed ligula ligula. Aliquam convallis auctor ante non ornare. Sed tellus est, consectetur quis pretium eu, varius at lorem. Sed volutpat ipsum non pulvinar congue. Vivamus nisl augue, luctus non aliquam in, luctus venenatis quam. Sed ac lorem luctus, interdum tellus a, scelerisque turpis. Suspendisse iaculis tempor mi, vitae dignissim erat viverra non. Pellentesque vitae suscipit dolor, id viverra erat. Ut pellentesque metus leo, id venenatis magna sagittis eu. Ut bibendum urna sit amet nulla rutrum, porta mattis odio sodales. Pellentesque tempor, massa vitae venenatis sollicitudin, ligula eros tempus urna, vel elementum orci nibh quis ante. Etiam mollis euismod maximus. Aenean sagittis arcu sed tempor semper. Etiam scelerisque magna nulla, quis blandit tortor elementum tincidunt. Donec lobortis. 
+
+## Keywords {.unnumbered .unlisted}
+
+Keyword 1, Keyword 2, Keyword 3, Keyword 4, Keyword 5
+
+{{< pagebreak >}}
+
+# Resumo {.unnumbered}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam posuere, metus eget lacinia interdum, nisi diam interdum tellus, id iaculis orci ipsum non nisl. Donec nisl urna, varius nec metus sollicitudin, rutrum lacinia ipsum. Sed sagittis interdum condimentum. Mauris quis lectus molestie, feugiat erat ut, venenatis ipsum. Proin eget magna orci. Fusce et porta diam, quis pulvinar lectus. Sed nunc ante, ultrices eget nulla ut, mattis pellentesque odio. Cras mollis mi urna, id dictum justo imperdiet at. Integer fermentum accumsan velit nec lobortis. Etiam vel dui euismod, semper nibh in, laoreet nibh. Curabitur viverra, quam eget pharetra pretium, ex ante convallis nunc, sed tincidunt urna mi quis dui. Nunc et orci lectus. Aenean luctus nisl nec condimentum congue. Nam ex ipsum, lobortis vel justo in, sollicitudin suscipit dui. Praesent ac elit magna. Maecenas sed ligula ligula. Aliquam convallis auctor ante non ornare. Sed tellus est, consectetur quis pretium eu, varius at lorem. Sed volutpat ipsum non pulvinar congue. Vivamus nisl augue, luctus non aliquam in, luctus venenatis quam. Sed ac lorem luctus, interdum tellus a, scelerisque turpis. Suspendisse iaculis tempor mi, vitae dignissim erat viverra non. Pellentesque vitae suscipit dolor, id viverra erat. Ut pellentesque metus leo, id venenatis magna sagittis eu. Ut bibendum urna sit amet nulla rutrum, porta mattis odio sodales. Pellentesque tempor, massa vitae venenatis sollicitudin, ligula eros tempus urna, vel elementum orci nibh quis ante. Etiam mollis euismod maximus. Aenean sagittis arcu sed tempor semper. Etiam scelerisque magna nulla, quis blandit tortor elementum tincidunt. Donec lobortis. 
+
+## Palavras-chave {.unnumbered .unlisted}
+
+Keyword 1, Keyword 2, Keyword 3, Keyword 4, Keyword 5
+
+\addcontentsline{toc}{chapter}{Table of contents}
+\renewcommand*\contentsname{Table of contents}
+\hypersetup{linkcolor=}
+\setcounter{tocdepth}{2}
+\tableofcontents
+
+\KOMAoptions{open=any}   
+
+\clearpage
+\addcontentsline{toc}{section}{List of Figures}
+\listoffigures
+
+\clearpage
+\addcontentsline{toc}{section}{List of Tables}
+\listoftables
+
+\clearpage
+
+# List of Acronyms {.unnumbered}
+
+| Acronym | Definition |
+| ----- | ------------------------------ |
+| IST | Instituto Superior Técnico | 
+| MSc | Master of Science |
+| UL | University of Lisbon |
+
+\par\vspace{2\baselineskip} 
+\begingroup
+\let\clearpage\relax
+\let\cleardoublepage\relax
+
+# Glossary {.unnumbered}
+
+| Term | Definition |
+| ----- | ------------------------------ |
+| Master of Science | Master's degree. It usually focuses on developing advanced knowledge and analytical skills within a specific scientific, technical, or professional field. |
+
+\endgroup
+
+\KOMAoptions{open=right}   
+\SavedMainMatter
