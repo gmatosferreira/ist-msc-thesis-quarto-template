@@ -2,12 +2,6 @@
 
 This repository aims to share a [Quarto](https://quarto.org/) template for MSc theses at the Instituto Superior Técnico (IST), Universidade de Lisboa.
 
-<style>
-td, th {
-   border: none!important;
-}
-</style>
-
 
 ![PDF version](figures/readme/pdf.png)  |  ![Website version](figures/readme/website.png)
 :-------------------------:|:-------------------------:
