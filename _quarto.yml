@@ -1,7 +1,7 @@
 project:
   type: book
 
-book:
+book: # Leave title, autgor and date blank to avoid generating a title page, as the cover.tex file will be used instead
   title: ""
   author: ""
   date: ""
@@ -18,6 +18,20 @@ book:
     - references.qmd
   appendices:
     - appendix_a.qmd
+  favicon: "figures/website/favicon.png"
+  sidebar:  # https://quarto.org/docs/websites/website-navigation.html#side-navigation
+    search: true
+    logo: "figures/cover/ist.png"
+    title: "Thesis Title<br/>"
+    tools: 
+      - icon: book
+        text: "Thesis at IST Document Repository"
+        href: https://scholar.tecnico.ulisboa.pt/search?q=&domain=records&useStringQuery=false
+        target: _blank
+      - icon: github
+        text: "GitHub Repository"
+        href: https://github.com/gmatosferreira/ist-msc-thesis-quarto-template
+        target: _blank
 
 bibliography: references.bib
 csl: apa.csl
@@ -26,8 +40,15 @@ citeproc: true
 number-depth: 3
 
 format:
-  html:
-    theme: cosmo
+  html: # Define title, subtitle and author at html level, to show only on website  # https://quarto.org/docs/reference/formats/html.html
+    title: "Thesis Title"
+    subtitle: "Thesis Subtitle"
+    author: "First Last Name"
+    date: "today"
+    date-format: "MMMM YYYY"
+    theme:
+      light: cosmo
+      dark: superhero
     css: ./styles.css
   pdf: # https://pandoc.org/MANUAL.html#variables-for-latex
     css: ./styles.css
