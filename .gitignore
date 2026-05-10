@@ -44,4 +44,5 @@ master*.lof
 master*.log
 master*.lot
 master*.toc
-*.tex[!cover.tex]
+*.tex
+!cover.tex

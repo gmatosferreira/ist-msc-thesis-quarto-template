@@ -24,6 +24,10 @@ book: # Leave title, autgor and date blank to avoid generating a title page, as 
     logo: "figures/cover/ist.png"
     title: "Thesis Title<br/>"
     tools: 
+      - icon: filetype-pdf
+        text: "Thesis PDF Document"
+        href: "./ist-msc-thesis-quarto-template.pdf"
+        target: _blank
       - icon: book
         text: "Thesis at IST Document Repository"
         href: https://scholar.tecnico.ulisboa.pt/search?q=&domain=records&useStringQuery=false
